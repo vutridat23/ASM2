@@ -1,0 +1,58 @@
+.box {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.box:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 50px orange;
+}
+
+.imganh {
+    width: 100%;
+}
+
+p {
+    font-weight: bold;
+    word-break: break-all;
+    text-align: justify;
+}
+
+.tt2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.row button {
+    border: 1px solid brown;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+
+.row button:hover {
+    cursor: pointer;
+    background-color: chocolate;
+}
+
+.list-group li:hover {
+    cursor: pointer;
+    color: white;
+    background-color: coral;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    color: coral;
+    cursor: pointer;
+}
