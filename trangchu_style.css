@@ -173,10 +173,9 @@ hr {
     height: 80%;
 }
 
-h2 {
+h2{
     color: #DC1B26;
 }
-
 .main-content .products {
     align-self: stretch;
     display: flex;
@@ -235,10 +234,7 @@ h2 {
     background-color: greenyellow;
 }
 
-.items .mua:hover {
-    box-shadow: -5px -5px 5px chocolate;
-    margin: 5px;
-}
+
 
 .items .giohang {
     cursor: pointer;
@@ -247,10 +243,7 @@ h2 {
     background-color: coral;
 }
 
-.items .giohang:hover {
-    box-shadow: -5px -5px 5px gray;
-    margin: 5px;
-}
+
 
 
 .main-content .products .item img {
@@ -262,7 +255,7 @@ footer {
     justify-content: center;
     color: white;
     display: flex;
-    background-color: #DC1B26;
+    background-color:green;
     padding: 30px;
 }
 
@@ -326,7 +319,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 768px) {
     .header-2 {
         margin: 5px 0px 5px 0px;
     }
@@ -336,7 +329,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1200px) {
     .main-content .products {
         justify-content: space-evenly;
         flex-shrink: 1;
